@@ -36,8 +36,7 @@
           "presenter": "Rob Wormald",
           "duration": 2,
           "level": "Advanced",
-          "abstract": "Angular 4 Performance is hot. In this session, well see how Angular gets such great performance by preloading data on your users devices before they even hit your site using the new predictive algorithms and thought reading software 
-          built into Angular 4.",
+          "abstract": "Angular 4 Performance is hot. In this session, well see how Angular gets such great performance by preloading data on your users devices before they even hit your site using the new predictive algorithms and thought reading software built into Angular 4.",
           "voters": []
         },
         {
@@ -108,7 +107,7 @@
           "level": "Beginner",
           "abstract": "In this session, Lukas will present the secret to being awesome, and how he became the President of the United States through his amazing programming skills, showing how you too can be success with just attitude.", 
           "voters": ["bradgreen"]
-        },
+        }
       ]
     },
     {
@@ -201,7 +200,7 @@
           "level": "Advanced",
           "abstract": "Androids may do everything for us now, allowing us to spend all day playing the latest Destiny DLC, but we can still improve the massages they give and the handmade brie they make using Angular 4. This session will show you how.",
           "voters": ["igorminar", "johnpapa"]
-        },
+        }
       ]
     }
 ]
