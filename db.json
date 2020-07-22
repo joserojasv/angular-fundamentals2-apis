@@ -1,4 +1,3 @@
-{
     id: 1,
     name: 'Angular Connect',
     date: new Date('9/26/2036'),
@@ -61,6 +60,8 @@
         look at what it might do, and how to convince your manager to 
         hold off on any new apps until it's released`,
         voters: []
+        city: 'London',
+        country: 'England'
       },
       sessions: [
         {
@@ -244,30 +245,7 @@
           abstract: `Let's take a look at some of the stranger pieces of Angular 4,
           including neural net nets, Android in Androids, and using pipes with actual pipes.`,
           voters: ['bradgreen', 'martinfowler', 'igorminar', 'johnpapa']
-        },
-        {
-          id: 5,
-          name: "Dressed for Success",
-          presenter: "Ward Bell",
-          duration: 2,
-          level: "Beginner",
-          abstract: `Being a developer in 2037 is about more than just writing bug-free code. 
-          You also have to look the part. In this amazing expose, Ward will talk you through
-          how to pick out the right clothes to make your coworkers and boss not only
-          respect you, but also want to be your buddy.`,
-          voters: ['bradgreen', 'martinfowler']
-        },
-        {
-          id: 6,
-          name: "These aren't the directives you're looking for",
-          presenter: "John Papa",
-          duration: 2,
-          level: "Intermediate",
-          abstract: `Coinciding with the release of Star Wars Episode 18, this talk will show how
-          to use directives in your Angular 4 development while drawing lessons from the new movie,
-          featuring all your favorite characters like Han Solo's ghost and Darth Jar Jar.`,
-          voters: ['bradgreen', 'martinfowler']
-        },
+        }
       ]
     },
     {
@@ -318,43 +296,5 @@
           voters: ['igorminar', 'johnpapa']
         },
       ]
-    },
-    {
-      id: 5,
-      name: 'ng-vegas',
-      date: '2/10/2037',
-      time: '9:00 am',
-      price: 400.00,
-      imageUrl: '/app/assets/images/ng-vegas.png',
-      location: {
-        address: 'The Excalibur',
-        city: 'Las Vegas',
-        country: 'USA'
-      },
-      sessions: [
-        {
-          id: 1,
-          name: "Gambling with Angular",
-          presenter: "John Papa",
-          duration: 1,
-          level: "Intermediate",
-          abstract: `No, this talk isn't about slot machines. We all know that 
-          Angular is used in most waiter-bots and coke vending machines, but
-          did you know that was also used to write the core engine in the majority
-          of voting machines? This talk will look at how all presidential elections
-          are now determined by Angular code.`,
-          voters: ['bradgreen', 'igorminar']
-        },
-        {
-          id: 2,
-          name: "Angular 4 in 60ish Minutes",
-          presenter: "Dan Wahlin",
-          duration: 2,
-          level: "Beginner",
-          abstract: `Get the skinny on Angular 4 for anyone new to this great new technology.
-          Dan Wahlin will show you how you can get started with Angular in 60ish minutes, 
-          guaranteed!`,
-          voters: ['bradgreen', 'igorminar', 'johnpapa']
-        }
-      ]
     }
+]
